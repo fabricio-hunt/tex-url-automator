@@ -1,0 +1,54 @@
+2026-06-16 15:45:41,824 | INFO | Application started
+2026-06-16 15:46:17,835 | INFO | Started processing 'Tabela.csv'
+2026-06-16 15:46:17,924 | INFO | Read 1000 rows from 'Tabela.csv'
+2026-06-16 15:46:17,947 | INFO | Filtro produto: 55/999 paths mantidos.
+2026-06-16 15:46:17,948 | INFO | Montados 55 redirects → '/superoferta'.
+2026-06-16 15:46:17,955 | INFO | output.csv salvo com 55 linhas.
+2026-06-16 15:46:23,473 | INFO | Output saved to 'C:\Users\fabricio.barauna\Downloads\https___www.bemol.com.br_-Coverage-Drilldown-2026-06-16\Tabela.csv' (55 rows)
+2026-06-16 15:46:29,091 | INFO | Application closed
+2026-06-16 15:47:22,641 | INFO | Application started
+2026-06-16 15:47:35,174 | INFO | Started processing 'Tabela.csv'
+2026-06-16 15:47:35,240 | INFO | Read 55 rows from 'Tabela.csv'
+2026-06-16 15:47:35,240 | ERROR | Processing failed for 'Tabela.csv'
+Traceback (most recent call last):
+  File "c:\Users\fabricio.barauna\OneDrive - BEMOL S A\Documentos\url_tratamento\frontend.py", line 168, in _worker
+    df_processed = tratar_urls(df)
+                   ^^^^^^^^^^^^^^^
+  File "c:\Users\fabricio.barauna\OneDrive - BEMOL S A\Documentos\url_tratamento\backend.py", line 107, in tratar_urls
+    raise ValueError("Coluna 'url' não encontrada no DataFrame.")
+ValueError: Coluna 'url' não encontrada no DataFrame.
+2026-06-16 15:47:41,159 | INFO | Application closed
+2026-06-16 15:48:12,811 | INFO | Application started
+2026-06-16 15:48:35,144 | INFO | Started processing 'Tabela.csv'
+2026-06-16 15:48:35,225 | INFO | Read 55 rows from 'Tabela.csv'
+2026-06-16 15:48:35,225 | ERROR | Processing failed for 'Tabela.csv'
+Traceback (most recent call last):
+  File "C:\Users\fabricio.barauna\OneDrive - BEMOL S A\Documentos\url_tratamento\frontend.py", line 168, in _worker
+    df_processed = tratar_urls(df)
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\fabricio.barauna\OneDrive - BEMOL S A\Documentos\url_tratamento\backend.py", line 107, in tratar_urls
+    raise ValueError("Coluna 'url' não encontrada no DataFrame.")
+ValueError: Coluna 'url' não encontrada no DataFrame.
+2026-06-16 15:49:02,554 | INFO | Application closed
+2026-06-16 15:52:55,145 | INFO | Application started
+2026-06-16 15:54:05,504 | INFO | Application started
+2026-06-16 16:07:10,493 | INFO | Application started
+2026-06-16 16:08:29,541 | INFO | DnD event received: C:/Users/fabricio.barauna/Downloads/https___www.bemol.com.br_-Coverage-Drilldown-2026-06-16/Tabela.csv
+2026-06-16 16:08:29,542 | INFO | Started processing 'Tabela.csv'
+2026-06-16 16:08:29,636 | INFO | Read 55 rows from 'Tabela.csv'
+2026-06-16 16:08:29,641 | INFO | Single column 'from;to;type;endDate' renamed to 'url'
+2026-06-16 16:08:29,658 | INFO | Filtro produto: 0/55 paths mantidos.
+2026-06-16 16:08:29,658 | WARNING | Nenhum path válido para gerar redirects.
+2026-06-16 16:08:29,672 | INFO | output.csv salvo com 0 linhas.
+2026-06-16 16:08:36,903 | INFO | Output saved to 'C:\Users\fabricio.barauna\Downloads\https___www.bemol.com.br_-Coverage-Drilldown-2026-06-16\Tabela_clean.csv' (0 rows)
+2026-06-16 16:08:40,342 | INFO | Application closed
+2026-06-16 16:10:05,067 | INFO | Application started
+2026-06-16 16:10:08,458 | INFO | DnD event received: C:/Users/fabricio.barauna/Downloads/https___www.bemol.com.br_-Coverage-Drilldown-2026-06-16/Tabela.csv
+2026-06-16 16:10:08,459 | INFO | Started processing 'Tabela.csv'
+2026-06-16 16:10:08,574 | INFO | Read 1000 rows from 'Tabela.csv'
+2026-06-16 16:10:08,575 | INFO | Column 'URL' renamed to 'url'
+2026-06-16 16:10:08,598 | INFO | Filtro produto: 55/999 paths mantidos.
+2026-06-16 16:10:08,598 | INFO | Montados 55 redirects → '/superoferta'.
+2026-06-16 16:10:08,606 | INFO | output.csv salvo com 55 linhas.
+2026-06-16 16:10:13,702 | INFO | Output saved to 'C:\Users\fabricio.barauna\Downloads\https___www.bemol.com.br_-Coverage-Drilldown-2026-06-16\Tabela_clean.csv' (55 rows)
+2026-06-16 16:10:16,687 | INFO | Application closed
